@@ -1,0 +1,12 @@
+.root {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  & h1 {
+    color: red;
+  }
+  & .btnBlock {
+    display: flex;
+    gap: 20px;
+  }
+}
